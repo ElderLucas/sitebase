@@ -4,9 +4,9 @@ import sys
 import logging
 
 logging.basicConfig(stream=sys.stderr)
-sys.path.insert(0,"/var/www/kpacitor/")
+sys.path.insert(0,"/var/www/sitebase/")
 
-activate_this = '/var/www/kpacitor/venv/bin/activate_this.py'
+activate_this = '/var/www/sitebase/venv/bin/activate_this.py'
 execfile(activate_this, dict(__file__=activate_this))
 
 from project import app as application
