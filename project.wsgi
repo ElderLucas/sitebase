@@ -11,4 +11,3 @@ execfile(activate_this, dict(__file__=activate_this))
 
 from project import app as application
 application.secret_key = 'Add your secret key'
-Contact GitHub API Training Shop Blog About
